@@ -1,0 +1,30 @@
+:root{
+    --color1:#FC7871;
+    --color2:#FFD7DA;
+    --color3:#FFB1B7;
+    --color4:white;
+    --color5:gray;
+    --color6:rgb(174, 169, 169);
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family:'Lucida Sans';
+}
+.cerceve{
+    margin: 50px;
+    width: 75%;
+    border: 2px solid var(--color5) ;
+    border-top: 9px solid var(--color1); 
+    border-bottom: 2px outset;
+    border-left: 1px outset;
+    border-right: 1px outset;  
+}
+
+
+div.icerik{
+    padding: 20px;
+}
+

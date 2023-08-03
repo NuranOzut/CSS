@@ -1,0 +1,73 @@
+:root{
+    --color1:white;
+    --color2:rgb(92, 90, 90);
+    --color3:rgb(46, 43, 43);
+    --color4:rgb(234, 233, 233);
+    --color5:rgb(199, 198, 198);
+    --color6:rgb(228, 99, 56);
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    font-family: Arial;
+    font-size: 15px;
+}
+div.tablo td{ 
+    height: 30px;
+    width: 100px;  
+}
+.liste thead tr:first-child{
+    color: var(--color1);
+    background:var(--color3);
+}
+.liste thead tr:nth-child(2),tr:nth-child(4),tr:nth-child(6){
+background-color: var(--color5);
+}
+.liste thead tr:nth-child(3),tr:nth-child(5),tr:nth-child(7){
+background-color: var(--color4);
+}
+.liste thead tr:last-child{
+    color: var(--color1);
+    background-color: var(--color2);
+}
+.liste thead tr td:first-child,td:nth-child(2){
+    text-align: left;
+}
+.liste thead tr td:nth-child(4),td:nth-child(5){
+    text-align: right;
+}
+.liste thead tr td:nth-child(3), td:last-child{
+    text-align: center;
+}
+.liste thead tr td:first-child, td:nth-child(2){
+    text-align: right;
+}
+.liste thead tr td i{
+    color: var(--color3);
+}
+
+div.odeme{
+   text-align: right;
+   cursor: pointer;
+   position: absolute;
+   margin-top: 15px;
+   margin-left: 250px; 
+}
+div.odeme a{
+   color: var(--color1);
+   background-color: var(--color6);
+   border: 0;
+   font-size: large;
+   padding: 9px;
+   text-decoration: none;
+}
+div.odeme i{
+    color: black;
+}
+
+
+
+
+
+
+

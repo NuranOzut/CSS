@@ -1,0 +1,29 @@
+:root{
+    --color1:#EAF6F6;
+    --color2:#FF0063;
+    --color3:rgba(255, 255, 255, 0.819);
+    
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+nav.menu ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+text-align: center;
+background-color: var(--color1);
+}
+nav.menu li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav.menu a{
+    text-decoration: none;
+    display: inline-block;
+    color: var(--color3);
+    background-color: var(--color2);
+    padding: 5px 10px;
+
+}

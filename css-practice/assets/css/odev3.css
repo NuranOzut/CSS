@@ -1,0 +1,40 @@
+body{
+    margin-top: 25px;
+    padding-left: 20px;
+}
+.sekmeler{
+    list-style-type: none;
+    color: red;
+    flex-direction: row;
+}
+nav.menu >div> ul>li>a{
+    text-decoration: none;
+    color: red;
+}
+nav.menu>div>ul>li>i{
+    padding: 15px;
+}
+nav.menu{
+    display: none;
+}
+ 
+#menuCheckbox{
+    display: none;   
+}
+#menuCheckbox:checked ~ .menu{
+    display: block;
+}
+
+nav.menu ul li{
+    display: block;
+}
+nav.menu div{
+    display: inline-block;
+}
+nav.menu div ul li:hover{
+    background-color: yellow;
+    width: 100%;
+}
+
+
+

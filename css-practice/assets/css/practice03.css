@@ -1,0 +1,24 @@
+.container{
+    width: 50%;
+    background-color: aqua;
+}
+h1{
+    color: red;
+    background-color: yellow;
+}
+hr{
+    color: white;
+    border: double;
+}
+h2{
+    color: red;
+    text-align: center;
+    background-color: yellow;
+}
+span{
+    color: red;
+}
+h2{
+    color: red;
+    background-color: yellow;
+}
